@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css">
+    <title>MVP</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Job Finder</h1>
+
+        <form id = 'js-form'>
+            <label for="js-search-term">What Language?:</label>
+            <input type="text" name = 'search-term' placeholder ="Python..." id = 'js-search-term' required>
+         
+            
+            <label for="js-location">You Can Narrow By Location:</label>
+            <input type="text" name = 'max-results' id = 'js-location' placeholder="New York/Zip Code...">
+            
+            <button type="submit" class = 'btn'><i class="fa fa-search"></i></button>
+        </form>
+
+        <p id="js-error-message" class="error-message"></p>
+
+        <section id="results" class = "hidden">
+            <h1>Search Results</h1>
+            <ul id="results-list">
+
+            </ul>
+        </section>
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
