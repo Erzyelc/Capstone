@@ -1,6 +1,8 @@
 Title: 
-Capstone
+  Capstone
 
+Screenshot:
+![Screen Shot 2021-01-21 at 3 21 25 PM](https://user-images.githubusercontent.com/58613915/105408827-7b64f700-5bfd-11eb-8c50-534ca920757a.png)
 
 
 
