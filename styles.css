@@ -12,7 +12,6 @@ body{
     justify-content: center;
     height: 100vh;
     overflow: scroll;
-    overflow-y: hidden;
     color: #000;
     background: #457b9d  no-repeat fixed center; 
     padding: 20px;
