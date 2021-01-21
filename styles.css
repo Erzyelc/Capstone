@@ -125,3 +125,9 @@ h1 {
         margin: 15px 0;
     }
 }
+
+@media(min-width: 2000px) {
+    #results{
+        max-width: 900px;
+    }
+}
