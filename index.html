@@ -11,13 +11,15 @@
 </head>
 <body>
     <div class="container">
+        <!--Main form for input-->
         <h1>Job Finder</h1>
 
         <form id = 'js-form'>
+            <!--Data for language-->
             <label for="js-search-term">What Language?:</label>
             <input type="text" name = 'search-term' placeholder ="Python..." id = 'js-search-term' required>
          
-            
+            <!--Data to narrow search-->
             <label for="js-location">You Can Narrow By Location:</label>
             <input type="text" name = 'max-results' id = 'js-location' placeholder="New York/Zip Code...">
             
@@ -27,6 +29,7 @@
         <p id="js-error-message" class="error-message"></p>
 
         <section id="results" class = "hidden">
+            <!--This will display results-->
             <h1>Search Results</h1>
             <ul id="results-list">
 
