@@ -51,6 +51,7 @@ function displayResults (responseJson) {
         <h2>${responseJson[i].company}</h2>
         <h3><a href="${responseJson[i].url}" >${responseJson[i].title}<a></h3>
         <h3>Location: ${responseJson[i].location}</h3>
+        <h3>Type: ${responseJson[i].type}</h3>
         <h3>${responseJson[i].description}</h3>
       </li>`
     )};

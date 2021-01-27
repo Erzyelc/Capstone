@@ -104,6 +104,16 @@ h1 {
     padding-right: 20px;
 }
 
+#mapid { 
+    display: flex;
+    height: 400px; 
+    width: 100%;
+  }
+  
+#mapid:hover {
+      transform: translateY(-5px);
+}
+
 #results h1 {
     text-align: center;
     padding-bottom: 10px;
